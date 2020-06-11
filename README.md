@@ -1,5 +1,5 @@
 # Tomates
 web versiones 
 
-version 1
+version 1.0
 
