@@ -3,7 +3,6 @@
 
 
 
-
 <?php
 include "../configs/config.php";
 include "../configs/funciones.php";
