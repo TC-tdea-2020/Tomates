@@ -9,6 +9,7 @@ if(mysqli_num_rows($s)>0){
 $s = $mysqli->query("SELECT * FROM compra WHERE id = '$id'");
 $r = mysqli_fetch_array($s);
 
+
 $sc = $mysqli->query("SELECT * FROM clientes WHERE id = '".$r['id_cliente']."'");
 $rc = mysqli_fetch_array($sc);
 
