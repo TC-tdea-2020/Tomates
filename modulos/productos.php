@@ -20,6 +20,7 @@ if(isset($agregar) && isset($cant)){
 	$v = $mysqli->query("SELECT * FROM carro WHERE id_cliente = '$id_cliente' AND id_producto = '$idp'");
 
 	if(mysqli_num_rows($v)>0){
+		
 
 		$q = $mysqli->query("UPDATE carro SET cant = cant + $cant WHERE id_cliente = '$id_cliente' AND id_producto = '$idp'");
 	
