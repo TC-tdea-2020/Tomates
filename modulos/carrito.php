@@ -6,6 +6,7 @@ if(isset($eliminar)){
 	$eliminar = clear($eliminar);
 	$mysqli->query("DELETE FROM carro WHERE id = '$eliminar'");
 	redir("?p=carrito");
+	
 }
 
 if(isset($id) && isset($modificar)){
