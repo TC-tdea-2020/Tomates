@@ -24,7 +24,7 @@ a{
 }
 
 header-1 nav {
-	background:#3498db;
+	background:#db4a34;
 	margin-bottom:-10px;
 }
  
@@ -44,7 +44,7 @@ header-1 nav ul li a {
 	text-decoration: none;
 }
 header-1 nav ul li a:hover {
-	background:#2980b9;
+	background:#db8534;
 	color:#fff;
 }
 
