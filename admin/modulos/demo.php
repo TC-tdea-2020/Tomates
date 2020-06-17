@@ -2,9 +2,9 @@
 <?php
 
 check_admin();
-include_once __DIR__ . "../configs/config.php";
-include_once __DIR__ . "../configs/funciones.php";
 
+require ('../configs/config.php"');
+require ('../configs/funciones.php');
 // con esta linea eliminamos las noticias  no los errores
 
 //agregar la libreria
