@@ -418,6 +418,12 @@ if(!isset($_SESSION['id'])){
           </a>
         </li>
       </ul>
+        <li>
+          <a href="./?p=demo">
+            <i class="fa fa-th"></i> <span>Facturar</span>
+          </a>
+        </li>
+      </ul>
     </section>
     <!-- /.sidebar -->
   </aside>
