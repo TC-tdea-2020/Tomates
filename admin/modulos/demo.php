@@ -1,7 +1,9 @@
 
 <?php
-include "config/config.php";
-include "config/funciones.php";
+
+check_admin();
+include_once __DIR__ . "../configs/config.php";
+include_once __DIR__ . "../configs/funciones.php";
 
 // con esta linea eliminamos las noticias  no los errores
 

@@ -1,8 +1,5 @@
 <meta charset="UTF-8"/>
 
-
-
-
 <?php
 include "../configs/config.php";
 include "../configs/funciones.php";
@@ -691,13 +688,7 @@ if(!isset($_SESSION['id'])){
       }
       ?>
 
-<?php
-      if(file_exists("facturas/".$p.".php")){
-        include "facturas/".$p.".php";
-      }else{
-        echo "El modulo solicitado no existe";
-      }
-      ?>
+
 
 
     </div>
