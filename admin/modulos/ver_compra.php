@@ -1,6 +1,7 @@
 <?php
 check_admin();
 
+
 $id = clear($id);
 
 $s = $mysqli->query("SELECT * FROM compra WHERE id = '$id'");

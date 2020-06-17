@@ -126,7 +126,7 @@ $pdf->SetFont('Arial','',8);
     $pdf->SetXY(80, $y);
     $pdf->Cell(40, 5, $e_productos[$x], 0, 1, 'C');
     $pdf->SetXY(115, $y);
-    $pdf->Cell(40, 5, $e_precio_unidad[$x]." €", 0, 1, 'C');
+    $pdf->Cell(40, 5, $e_precio_unidad[$x]." Cop", 0, 1, 'C');
 
 //Cálculo del subtotal 	
 $precio_subtotal += $e_precio_unidad[$x] * $e_unidades[$x];
@@ -144,10 +144,10 @@ $total_mas_iva = round($precio_subtotal + $add_iva + $gastos_de_envio, 2);
 
 $pdf->Ln(2);
 $pdf->SetFont('Arial','B',10);
-$pdf->Cell(190, 5, "Gastos de envío: $gastos_de_envio €", 0, 1, "C");
+$pdf->Cell(190, 5, "Gastos de envío: $gastos_de_envio Cop", 0, 1, "C");
 $pdf->Cell(190, 5, "I.V.A: $iva %", 0, 1, "C");
-$pdf->Cell(190, 5, "Subtotal: $precio_subtotal €", 0, 1, "C");
-$pdf->Cell(190, 5, "TOTAL: ".$total_mas_iva." €", 0, 1, "C");
+$pdf->Cell(190, 5, "Subtotal: $precio_subtotal Cop", 0, 1, "C");
+$pdf->Cell(190, 5, "TOTAL: ".$total_mas_iva." Cop", 0, 1, "C");
 
 
 $pdf->Output($archivo_de_salida);//cierra el objeto pdf
