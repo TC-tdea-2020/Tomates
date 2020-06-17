@@ -691,11 +691,7 @@ if(!isset($_SESSION['id'])){
       }
       ?>
 
-
- <?php
-    }else{
-      ?>
-   <?php
+<?php
       if(file_exists("facturas/".$p.".php")){
         include "facturas/".$p.".php";
       }else{
