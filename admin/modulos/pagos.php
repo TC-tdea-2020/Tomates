@@ -1,4 +1,4 @@
-<?php
+in<?php
 check_admin();
 
 if(isset($aceptar)){

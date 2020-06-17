@@ -1,10 +1,8 @@
 
 <?php
-
 check_admin();
 
-require ('../configs/config.php"');
-require ('../configs/funciones.php');
+
 // con esta linea eliminamos las noticias  no los errores
 
 //agregar la libreria
@@ -80,7 +78,7 @@ imagedestroy($bg);
 </head>
 <body > 
 
-    <form  action="demo.php" method="post">
+    <form  action="" method="post" enctype="multipart/form-data">
     <font color="white">
     <h3>Base de datos dbsistema</h3>
     Tabla 'Persona':<br>
@@ -117,7 +115,7 @@ imagedestroy($bg);
 
 
 
-<form method="post" action="facturas/facturas.php">
+<form method="post" action="facturas/facturas.php" enctype="multipart/form-data">
     <button type="submit">GENERAR FACTURA PDF</button>
     
     <h3>Los datos de la factura demo son los siguientes ...</h3>

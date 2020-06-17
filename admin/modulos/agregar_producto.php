@@ -39,7 +39,7 @@ if(isset($eliminar)){
 
 <h1>Agregar Producto</h1><br><br>
 
-<form method="post" action="" enctype="multipart/form-data">
+<form method="post" action="" enctype="multipart/form-data" >
 	<div class="form-group">
 		<input type="text" class="form-control" name="name" placeholder="Nombre del producto"/>
 	</div>
