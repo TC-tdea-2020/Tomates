@@ -13,7 +13,7 @@ if(isset($_POST['generar']))
   if(!empty($_POST['cod']))
    {
    //creamos la carpeta dir para guardar los codigos qr generados
-  $dir = './modulos';
+  $dir = './';
   //pregunatar si existe la carpeta dir y ! si no existe crear 
   if(!file_exists($dir))
         mkdir($dir);
