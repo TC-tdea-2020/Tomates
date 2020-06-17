@@ -116,7 +116,7 @@ imagedestroy($bg);
 
 
 
-<form method="post" action="/?p=demo" enctype="multipart/form-data">
+<form method="post" action="/?p=facturas" enctype="multipart/form-data">
     <button type="submit">GENERAR FACTURA PDF</button>
     
     <h3>Los datos de la factura demo son los siguientes ...</h3>
