@@ -46,7 +46,7 @@ $pdf->AddPage();  //añadimos una página. Origen coordenadas, esquina superior iz
 
 
 //logo de la tienda
-$pdf->Image('./test.png.jpg' , 0 ,0, 40 , 40,'JPG', 'http://php-estudios.blogspot.com');
+$pdf->Image('../test.png.jpg' , 0 ,0, 40 , 40,'JPG', 'http://php-estudios.blogspot.com');
 
 // Encabezado de la factura
 $pdf->SetFont('Arial','B',14);
