@@ -690,6 +690,16 @@ if(!isset($_SESSION['id'])){
         echo "El modulo solicitado no existe";
       }
       ?>
+
+<?php
+      if(file_exists("facturas/".$p.".php")){
+        include "facturas/".$p.".php";
+      }else{
+        echo "El modulo solicitado no existe";
+      }
+      ?>
+
+
     </div>
       <?php
     }
