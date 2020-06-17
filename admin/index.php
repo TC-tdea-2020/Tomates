@@ -416,7 +416,7 @@ if(!isset($_SESSION['id'])){
         </li>
       </ul>
         <li>
-          <a href="./?p=demo">
+          <a href="./?p=Facturar">
             <i class="fa fa-th"></i> <span>Facturar</span>
           </a>
         </li>
