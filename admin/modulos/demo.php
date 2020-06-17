@@ -1,12 +1,13 @@
 
 <?php
 check_admin();
-
+ 
 
 // con esta linea eliminamos las noticias  no los errores
 
 //agregar la libreria
 require ('phpqrcode/qrlib.php');
+require ('facturas/facturas.php');
 // Si se apreta el boton generar, da la condicion como true.
 if(isset($_POST['generar']))
 {
@@ -115,7 +116,7 @@ imagedestroy($bg);
 
 
 
-<form method="post" action="facturas/facturas.php" enctype="multipart/form-data">
+<form method="post" action="/?p=demo" enctype="multipart/form-data">
     <button type="submit">GENERAR FACTURA PDF</button>
     
     <h3>Los datos de la factura demo son los siguientes ...</h3>
